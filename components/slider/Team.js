@@ -51,10 +51,10 @@ const TeamSlider = () => {
                             prevEl: ".swiper-button-prev-4",
                             nextEl: ".swiper-button-next-4",
                         }}
-                        className="swiper-wrapper pb-70 pt-5"
+                        className="swiper-wrapper pt-5"
                     >
                         {data.map((item, i) => (
-                            <SwiperSlide>
+                            <SwiperSlide key={i}>
                                 <div className="swiper-slide active">
                                     <div className="row">
                                         <div className="col-lg-3 col-md-6 col-sm-6">

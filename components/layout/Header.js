@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 const Header = ({ handleOpen, headerStyle }) => {
+    const countryCode = '/ae'
     const [scroll, setScroll] = useState(0)
     useEffect(() => {
         document.addEventListener("scroll", () => {
@@ -28,19 +29,28 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
                                         <li>
-                                            <Link href="/" legacyBehavior><a className="active">Home</a></Link>
+                                            <Link href={countryCode} legacyBehavior><a className="active">Home</a></Link>
+                                        </li>
+                                        <li className="">
+                                            <Link href={`${countryCode}/about`} legacyBehavior><a>About</a></Link>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#" legacyBehavior><a>About</a></Link>
-                                            <ul className="sub-menu">
+                                            <Link href="#" legacyBehavior><a>Tally</a></Link>
+                                            <ul className="sub-menu" style={{ minWidth: '220px'}}>
                                                 <li>
-                                                    <Link href="/page-about-1" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 1</a></Link>
+                                                    <Link href={`${countryCode}/tally-prime`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />Tally Prime</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-2" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 2</a></Link>
+                                                    <Link href={`${countryCode}/tally-prime-single-user`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />Tally Prime Single User</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-3" legacyBehavior><a><i className="fi fi-rr-star" />About Us - 3</a></Link>
+                                                    <Link href={`${countryCode}/tally-prime-multi-user`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />Tally Prime Multi User</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href={`${countryCode}/tally-customization`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />Tally Customization</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href={`${countryCode}/tally-prime-cloud-version`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />Tally Cloud</a></Link>
                                                 </li>
                                             </ul>
                                         </li>

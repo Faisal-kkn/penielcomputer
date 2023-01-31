@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
-import PriceTable2 from "../components/elements/PriceTable2";
-import Layout from "../components/layout/Layout";
-import OfferSlider from "../components/slider/Offer";
-import TestimonialSlider from "../components/slider/Testimonial";
+import PriceTable2 from "../../components/elements/PriceTable2";
+import Layout from "../../components/layout/Layout";
+import OfferSlider from "../../components/slider/Offer";
+import TestimonialSlider from "../../components/slider/Testimonial";
 
 function Home() {
     const [activeIndex, setActiveIndex] = useState(1);
@@ -31,7 +31,7 @@ function Home() {
                             <div className="row">
                                 <div className="col-lg-7">
                                     <span className="tag-1 bg-6 color-green-900">Value-Added Tax</span>
-                                    <h1 className="text-display-4">
+                                    <h1 className="text-display-4 mt-20">
                                         VAT Enabled
                                     </h1>
                                     <h1 className="text-display-2">
@@ -72,7 +72,7 @@ function Home() {
                                 <p className="text-body-excerpt color-gray-600 mt-20">
                                     Peniel Computer is a provider of IT solutions ranging from a custom developing business application, VAT Accounting and financial software like Tally. ERP9, (New Tally Prime VAT) Peachtree, Sage 50 US, Sage 50 CA, Sage Pastel, QuickBooks, (VAT Enabled) and Simply Accounting. Incorporated in the UAE (Dubai, Sharjah, Ajman, Ras Al Khaimah, Abudhabi, Fujairah and Al ain) aims to serve the Middle East Market (Qatar, Bahrain, Oman & Saudi Arabia). Peniel Computer stands for trustworthiness and serving its clients with truly worthwhile solutions. As a key technology provider, we ensure you that we can offer expert independent advice on the most advantageous networking, hardware and software solutions for your organization. VAT software that is designed focusing on Oman VAT which manages the compliance with minimum efforts and time.
                                 </p>
-                                <div className=" text-lg-center text-start pt-30">
+                                <div className=" text-center  text-start pt-30">
                                     <a className="btn btn-black icon-arrow-right-white" onClick={openModal}>Get a Quote</a>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ function Home() {
                 </section>
                 <section className="section-box">
                     <div className="container mt-100 mb-100">
-                        <div className="row align-items-center">
+                        <div className="row align-items-center  flex-column-reverse flex-lg-row">
 
                             <div className="col-lg-6 col-sm-12 block-we-do">
                                 {/* <span className="tag-1">What We Do, What You Get</span> */}
@@ -160,7 +160,7 @@ function Home() {
                                     VAT Enabled Accounting and ERP Softwares
                                 </p>
                             </div>
-                            <div className="col-lg-4 text-lg-end text-start ">
+                            <div className="col-lg-4 text-lg-end text-start mt-md-3">
                                <a className="btn btn-default btn-white icon-arrow-right" onClick={openModal}>Get Offer</a>
                             </div>
                         </div>
@@ -221,7 +221,7 @@ function Home() {
                 </section>
                 <section className="section-box">
                     <div className="container mt-100">
-                        <div className="row  align-items-center">
+                        <div className="row  align-items-center flex-column-reverse flex-lg-row">
                             <div className="col-lg-6 col-sm-12 block-we-do">
                                 {/* <span className="tag-1">What We Do, What You Get</span> */}
                                 <h3 className="text-heading-3">
@@ -518,7 +518,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="container mt-90">
+                    <div className="container mt-90 mt-sm-5">
                         <div className="row">
                             <div className="col-lg-4 col-sm-12 pr-30">
                                 <div className="card-grid-style-4">
