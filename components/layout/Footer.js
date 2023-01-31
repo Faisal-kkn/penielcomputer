@@ -5,104 +5,103 @@ import Image from 'next/image';
 const Footer = () => {
     return (
         <>
-            <footer className="footer mt-50">
+            <footer className="footer ">
                 <div className="container">
                     <div className="footer-top">
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/" legacyBehavior>
                                     <a>
-                                        {/* <img alt="Agon" src="/assets/imgs/template/logo.svg" /> */}
-                                        <Image src="/assets/imgs/template/logo.svg" alt="Agon" width={162} height={42}/>
+                                        <img alt="Agon" src="/assets/imgs/template/logo.svg" />
+                                        <Image src="/assets/imgs/template/logo.webp" alt="Agon" width={162} height={42}/>
                                     </a>
                                 </Link>
                             </div>
                             <div className="col-md-8 col-sm-6 text-center text-md-end">
-                                <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">Ready to get started?</span>
+                                <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">Stay up to date</span>
                                 <Link href="/page-signup" legacyBehavior>
                                     <a className="btn btn-square">Create an Account</a>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="row">
-                        <div className="col-lg-3 width-20 mb-30">
-                            <h4 className="text-heading-5">Contact</h4>
-                            <div className="mt-20 text-body-text color-gray-600 mb-20">4517 Washington Ave. Manchester, Kentucky 39495</div>
-                            <div className="mt-20 text-body-text color-gray-600">(239) 555-0108</div>
-                            <div className="text-body-text color-gray-600">contact@agon.com</div>
+                        <div className="col-lg-4 width-25 mb-30">
+                            <Link href="/" legacyBehavior>
+                                <a>
+                                    {/* <img alt="Agon" src="/assets/imgs/template/logo.svg" /> */}
+                                    <Image src="/assets/imgs/template/logo.webp" alt="Agon" width={162} height={42} />
+                                </a>
+                            </Link>
+                            <div className="mt-20 text-body-text color-gray-600 mb-20">
+                                Accounting Software & IT Solutions. Try All New Elate Products - Real Estate Property Management Software, POS System, ERPNext, Odoo Implementation, Custom Invoices in QuickBooks.
+                            </div>
                         </div>
-                        <div className="col-lg-3 width-20 mb-30">
-                            <h4 className="text-heading-5">About Us</h4>
+                        <div className="col-lg-4 width-20 mb-30">
+                            <h4 className="text-heading-5">Useful</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Mission and Vision</a>
+                                        <a>CRM Software</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Our Team</a>
+                                        <a>Tally</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/page-career" legacyBehavior>
-                                        <a>Careers</a>
+                                        <a>Quickbooks</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Press and Media</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Advertising</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Testimonials</a>
+                                        <a>Our Blog</a>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-lg-3 width-20 mb-30">
-                            <h4 className="text-heading-5">Discover</h4>
+                        <div className="col-lg-4 width-20 mb-30">
+                            <h4 className="text-heading-5">Services</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
                                     <Link href="/blog-2" legacyBehavior>
-                                        <a>Our Blog</a>
+                                        <a>Elate ERP</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/page-pricing-1" legacyBehavior>
-                                        <a>Plans and Pricing</a>
+                                        <a>Elate CRM</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Knowledge Base</a>
+                                        <a>HR & Payroll</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Cookie Policy</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/#" legacyBehavior>
-                                        <a>Office Center</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/blog-1" legacyBehavior>
-                                        <a>News and Events</a>
+                                        <a>Cheque printing</a>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-lg-3 width-20 mb-30">
+                        <div className="col-lg-4 width-20 mb-30">
+                            <h4 className="text-heading-5">Contact</h4>
+                            <div className="mt-20 text-body-text color-gray-600 mb-20">Al Mamzar Dubai, United Arab Emirates</div>
+                            <div className="mt-20 text-body-text color-gray-600">
+                                <Link href="tel:+96890139256" legacyBehavior>
+                                    <a>+968 901 392 56</a>
+                                </Link>
+                            </div>
+                            <div className="text-body-text color-gray-600">
+                                <Link href="mailto:info@penielcomputer.com" legacyBehavior>
+                                    <a>info@penielcomputer.com</a>
+                                </Link>
+                            </div>
+                        </div>
+                        {/* <div className="col-lg-4 width-20 mb-30">
                             <h4 className="text-heading-5">Support</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
@@ -136,8 +135,8 @@ const Footer = () => {
                                     </Link>
                                 </li>
                             </ul>
-                        </div>
-                        <div className="col-lg-3 width-16">
+                        </div> */}
+                        {/* <div className="col-lg-4 width-20">
                             <h4 className="text-heading-5">Useful links</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
@@ -166,21 +165,16 @@ const Footer = () => {
                                     </Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-6">
-                                <span className="color-gray-400 text-body-lead">© Agon Official 2022</span>
-                                <Link href="/page-terms" legacyBehavior>
-                                    <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
-                                </Link>
-                                <Link href="/page-terms" legacyBehavior>
-                                    <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                                </Link>
-                                <Link href="/page-terms" legacyBehavior>
-                                    <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
-                                </Link>
+
+
+
+                                <span className="color-gray-400 text-body-lead"> Peniel Computer © {(new Date().getFullYear())} copyright all right reserved</span>
+
                             </div>
                             <div className="col-md-6 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
