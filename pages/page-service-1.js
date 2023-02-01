@@ -16,12 +16,13 @@ function Service1() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-7 box-banner-left">
-                                    <h1 className="text-display-3 mt-30">Building the Work Ecosystem</h1>
-                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Connect your conversations with the tools and services<br className="d-lg-block d-none" />that you use to get the job done. With over 1,500 apps<br className="d-lg-block d-none" />and a robust API</p>
+                                    <h1 className="text-heading-3 mt-30">Tally Gold Partner</h1>
+                                    <h1 className="text-display-3 mt-30">UAE's Official Tally Prime Software Solution Provider</h1>
+                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">All new TallyPrime 2.0 is here - more flexible & insightful. It is offering all sorts of business management solutions for VAT, accounting, inventories & ERPs in the UAE.</p>
                                     <div className="mt-40">
-                                        <Link href="/page-about-1" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Get Started</a></Link>
+                                        <Link href="/page-about-1" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Free Consultation</a></Link>
 
-                                        <Link href="/page-pricing-1" legacyBehavior><a className="btn btn-link icon-triangle color-gray-900 ml-40">How it works</a></Link>
+                                        <Link href="/page-pricing-1" legacyBehavior><a className="btn btn-link icon-triangle color-gray-900 ml-40">Tally Prime Demo!</a></Link>
                                     </div>
                                     <div className="row mt-50">
                                         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
