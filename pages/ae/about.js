@@ -98,13 +98,42 @@ function About3() {
                         </div>
                     </div>
                     <div className="container mt-70">
-                        <div className="row">
+                        <div className="popular-search">
+                            <h2 className="text-heading-2 color-gray-900 mb-10 text-center">Accounting Softwares</h2>
+                            <ul className="list-search-popular text-center">
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> Tally ERP 9</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> Sage 50 US</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> Sage 50 CA</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> Sage Peachtree</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> Intuit QuickBooks</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> ACT</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> CRM Software</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="#" legacyBehavior><a className="btn btn-border"> HR & Payroll</a></Link>
+                                </li>
+                            </ul>
+                        </div>
+                        {/* <div className="row">
                             <h2 className="text-heading-2 color-gray-900 mb-10 text-center">Accounting Softwares</h2>
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons mt-50">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 1. Tally ERP 9 </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 1. </Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +141,7 @@ function About3() {
                                 <div className="list-icons mt-50">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 2. Sage 50 US </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 2. </Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +149,7 @@ function About3() {
                                 <div className="list-icons mt-50">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 3. Sage 50 CA </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 3. </Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +157,7 @@ function About3() {
                                 <div className="list-icons mt-20">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 4. Sage Peachtree </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 4. </Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +165,7 @@ function About3() {
                                 <div className="list-icons mt-20">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 5. Intuit QuickBooks </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 5. </Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +173,7 @@ function About3() {
                                 <div className="list-icons mt-20">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 6. ACT </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 6. </Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +181,7 @@ function About3() {
                                 <div className="list-icons mt-20">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 6. CRM Software </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 6. </Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -160,15 +189,15 @@ function About3() {
                                 <div className="list-icons mt-20">
                                     <div className=" none-bd d-flex align-items-center gap-4">
                                         <span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" width='50px' /></span>
-                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 6. HR & Payroll </Link></h4>
+                                        <h4 className="text-heading-5"><Link href="#" legacyBehavior> 6. </Link></h4>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
                 <section className="section-box">
-                    <div className="container mt-100">
+                    <div className="container mt-70">
                         <div className="row">
                             <div className="col-lg-9 col-sm-8">
                                 <h3 className="text-heading-1 mb-10">Our Team</h3>

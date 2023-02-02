@@ -105,7 +105,7 @@ function Home() {
                 </section>
                 <section className="section-box">
                     <div className="container mt-100 mb-100">
-                        <div className="row align-items-center  flex-column-reverse flex-lg-row">
+                        <div className="row align-items-center flex-column-reverse flex-lg-row">
 
                             <div className="col-lg-6 col-sm-12 block-we-do">
                                 {/* <span className="tag-1">What We Do, What You Get</span> */}
