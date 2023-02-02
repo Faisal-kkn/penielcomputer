@@ -347,6 +347,15 @@
 @include media-breakpoint-down(md) {
     //max-width: 767.98px
     // New Agon    
+    .bdrd-58 {
+        border-radius: 30px;
+    }
+   .section-box.mt-70,
+    .section-box.mt-80,
+    .section-box.mt-100,
+    .section-box.mt-40 {
+        margin-top: 40px !important;
+    }
     .banner-hero {
         &.banner-1
         {
@@ -510,6 +519,9 @@
 @include media-breakpoint-down(sm) {
     //max-width: 575.98px
     // New Agon
+    .bdrd-58 {
+        border-radius: 20px;
+    }
     .footer{
          .footer-top{
                 padding: 0px 0px 20px 0px;

@@ -2,14 +2,13 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import Link from "next/link";
-import PriceTable from "../../components/elements/PriceTable";
 import Layout from "../../components/layout/Layout";
 import EnabledBusiness from "../../components/slider/EnabledBusiness";
 import TestimonialSlider from "../../components/slider/Testimonial";
 import Accordion from "../../components/elements/Accordion";
 
 
-function Service1() {
+function TallyPrime() {
     const [activeIndex, setActiveIndex] = useState(1);
 
     const handleOnClick = (index) => {
@@ -42,26 +41,6 @@ function Service1() {
                                         <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Free Consultation</a></Link>
                                         <Link href="#" legacyBehavior><a className="btn btn-link icon-triangle color-gray-900 ml-40">Tally Prime Demo!</a></Link>
                                     </div>
-                                    {/* <div className="row mt-50">
-                                        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                                            <div className="list-icons">
-                                                <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-project-done.svg" alt="Agon" /></span>
-                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">12</span>k</span></h4>
-                                                    <p className="text-body-text color-gray-500">Projects done</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                                            <div className="list-icons">
-                                                <div className="list-icons">
-                                                    <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-officer.svg" alt="Agon" /></span>
-                                                        <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">18</span></span></h4>
-                                                        <p className="text-body-text color-gray-500">Offices / Factories</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> */}
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
@@ -75,11 +54,7 @@ function Service1() {
                 <section className="section-box">
                     <div className="container mt-30 ">
                         <div className="row align-items-center">
-                            {/* <div className="col-lg-6 col-sm-12 block-img-we-do">
-                                <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage1/img-2.jpg" alt="QuickBooks" />
-                            </div> */}
                             <div className="col-lg-6 col-sm-12 block-we-do mt-50">
-                                {/* <span className="tag-1">What We Do, What You Get</span> */}
                                 <h3 className="text-heading-2 ">
                                     New Tally Prime
                                 </h3>
@@ -95,7 +70,6 @@ function Service1() {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-sm-12 block-we-do mt-50">
-                                {/* <span className="tag-1">What We Do, What You Get</span> */}
                                 <h3 className="text-heading-2 ">
                                     Tally Solution
                                 </h3>
@@ -120,9 +94,6 @@ function Service1() {
                                     <a className="btn btn-black icon-arrow-right-white me-5 mt-10">Tally Prime 2.0</a>
                                     <a className="btn btn-black icon-arrow-right-white mt-10">VAT Enabled</a>
                                 </div>
-                                {/* <p className="text-body-excerpt color-gray-600">
-                                    Tally's Latest Version in Dubai, UAE is Tally Prime. Contact Us for Tally Cloud Software Based in Dubai, UAE. Tally Prime, Tally9, Tally ERP, Tally. ERP 9 Dealer in Dubai, Sharjah, Abu Dhabi, UAE, Tally Dubai, Tally dealer in UAE, Tally, Tally.ERP9, ERP Software, Peniel Technology LLC. UAE
-                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -752,29 +723,6 @@ function Service1() {
                                             </tbody>
                                         </table>
                                     </div>
-                                    {/* <p className="text-body-lead-large color-white mt-30 pr-40">Integrated workflow designed for product teams. We create world-class development and branding</p>
-                                    <div className="mt-40">
-                                        <Link href="/page-about-1" legacyBehavior><a className="btn btn-pink icon-arrow-right-white text-heading-6">Get Start
-                                        </a></Link>
-                                        <Link href="/page-contact" legacyBehavior><a className="btn btn-link color-white text-heading-6 btn-link-inter">Learn More
-                                        </a></Link>
-                                    </div>
-                                    <div className="mt-60">
-                                        <div className="row">
-                                            <div className="col-lg-3 col-sm-4 col-4">
-                                                <h3 className="text-heading-2 color-white mb-15">5000+</h3>
-                                                <p className="text-body-normal color-gray-300">Happy Clients</p>
-                                            </div>
-                                            <div className="col-lg-3 col-sm-4 col-4">
-                                                <h3 className="text-heading-2 color-white mb-15">756+</h3>
-                                                <p className="text-body-normal color-gray-300">Project Done</p>
-                                            </div>
-                                            <div className="col-lg-3 col-sm-4 col-4">
-                                                <h3 className="text-heading-2 color-white mb-15">100%</h3>
-                                                <p className="text-body-normal color-gray-300">Client Satisfaction</p>
-                                            </div>
-                                        </div>
-                                    </div> */}
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
@@ -861,4 +809,4 @@ function Service1() {
     )
 }
 
-export default Service1;
+export default TallyPrime;

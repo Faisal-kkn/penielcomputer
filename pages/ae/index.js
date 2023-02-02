@@ -1,9 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import PriceTable2 from "../../components/elements/PriceTable2";
 import Layout from "../../components/layout/Layout";
-import OfferSlider from "../../components/slider/Offer";
-import TestimonialSlider from "../../components/slider/Testimonial";
 
 function Home() {
     const [activeIndex, setActiveIndex] = useState(1);
@@ -48,11 +45,6 @@ function Home() {
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        {/* <div className="video-block shape-1">
-                                            <a className="popup-youtube btn-play-video" ></a>
-                                            <span className="text-heading-4">Watch intro video</span>
-
-                                        </div> */}
                                         <img className="img-responsive shape-2" alt="Agon" src="assets/imgs/page/homepage1/banner.png" />
                                     </div>
                                 </div>
@@ -93,9 +85,6 @@ function Home() {
                                 <p className="text-body-excerpt color-gray-600 mt-30">
                                     The all New Tally Prime, Tally Prime UAE, Tally, Tally VAT release, Tally ERP, Tally ERP 6.4, Tally. ERP 9 is the latest ERP offering of the Tally software series. As with all Tally products, rapid updates are made available for the lifetime of the product via periodic releases, thereby providing the high level of business capability that millions of users trust.
                                 </p>
-                                {/* <p className="text-body-excerpt color-gray-600 mt-30">
-                                    We are Official Tally Software Gold Partner in Dubai, UAE, Oman, Bahrain, Saudi Arabia, Ajman, Abu Dhabi and all over the Middle East.
-                                </p> */}
                                 <div className=" text-lg-start text-start pt-30">
                                     <a className="btn btn-black icon-arrow-right-white" onClick={openModal}>Get VAT Enabled Tally Prime</a>
                                 </div>
@@ -108,7 +97,6 @@ function Home() {
                         <div className="row align-items-center flex-column-reverse flex-lg-row">
 
                             <div className="col-lg-6 col-sm-12 block-we-do">
-                                {/* <span className="tag-1">What We Do, What You Get</span> */}
                                 <h3 className="text-heading-2 ">
                                     QuickBooks Oman
                                 </h3>
@@ -173,7 +161,6 @@ function Home() {
                                 <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage1/img-3.jpg" alt="CRM Software" />
                             </div>
                             <div className="col-lg-6 col-sm-12 block-we-do">
-                                {/* <span className="tag-1">What We Do, What You Get</span> */}
                                 <h3 className="text-heading-3">
                                     CRM Software
                                 </h3>
@@ -223,7 +210,6 @@ function Home() {
                     <div className="container mt-100">
                         <div className="row  align-items-center flex-column-reverse flex-lg-row">
                             <div className="col-lg-6 col-sm-12 block-we-do">
-                                {/* <span className="tag-1">What We Do, What You Get</span> */}
                                 <h3 className="text-heading-3">
                                     HR & Payroll Management
                                 </h3>
@@ -274,7 +260,6 @@ function Home() {
                                 <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage1/img-5.jpg" alt="Agon" />
                             </div>
                             <div className="col-lg-6 col-sm-12 block-we-do">
-                                {/* <span className="tag-1">What We Do, What You Get</span> */}
                                 <h3 className="text-heading-3">
                                     Cheque Printing
                                 </h3>
@@ -403,107 +388,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                {/* <section className="section-box">
-                    <div className="container mt-100">
-                        <div className="row">
-                            <div className="col-lg-6 col-sm-12 block-img-we-do">
-                                <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage1/img-2.png" alt="Agon" />
-                            </div>
-                            <div className="col-lg-6 col-sm-12 block-we-do">
-                                <span className="tag-1">What We Do, What You Get</span>
-                                <h3 className="text-heading-1 mt-30">
-                                    We believe that our works can contribute to a
-                                    better world.
-                                </h3>
-                                <p className="text-body-lead-large color-gray-600 mt-30">
-                                    Necessary to deliver white glove, fully managed
-                                    campaigns that surpass industry benchmarks.Take
-                                    your career to next level.
-                                </p>
-                                <div className="line-bd-green mt-50" />
-                                <div className="row">
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                            Boost your sale
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                            Smart Installation Tools
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                            Introducing New Features
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                            Dynamic Boosting
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-                {/* <section className="section-box">
-                    <div className="container mt-120">
-                        <div className="bg-2 bdrd-58 pattern-white pb-60">
-                            <div className="row">
-                                <div className="col-lg-2 col-sm-1 col-12" />
-                                <div className="col-lg-8 col-sm-10 col-12 text-center mt-70">
-                                    <h2 className="text-heading-1 color-gray-900">
-                                        What We Offer
-                                    </h2>
-                                    <p className="text-body-lead-large color-gray-600 mt-20">
-                                        What makes us different from others? We give
-                                        holistic solutions with strategy, design
-                                        and technology.
-                                    </p>
-                                </div>
-                                <div className="col-lg-2 col-sm-1 col-12" />
-                            </div>
-                            <div className="container mt-70">
-                                <OfferSlider />
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-                {/* <section className="section-box">
-                    <div className="container mt-110">
-                        <div className="row">
-                            <div className="col-lg-9 col-sm-8">
-                                <h3 className="text-heading-1 mb-10">
-                                    Our Happy Customers
-                                </h3>
-                                <p className="text-body-lead-large color-gray-600">
-                                    Know about our clients, we are a woldwide
-                                    corporate brand
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container mt-80">
-                        <TestimonialSlider />
-                    </div>
-                </section> */}
+                
                 <section className="section-box">
                     <div className="container">
                         <div className="row">
@@ -551,14 +436,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                {/* <section className="section-box section-green mt-100">
-                    <div className="container mt-70">
-                        <h3 className="text-heading-1 color-white text-center mb-10">
-                            Choose The Best Plan<br className="d-lg-block d-none" />That’s For You
-                        </h3>
-                    </div>
-                    <PriceTable2 />
-                </section> */}
+               
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">

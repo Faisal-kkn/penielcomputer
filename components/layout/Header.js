@@ -55,6 +55,29 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
+                                            <Link href="#" legacyBehavior><a>QuickBooks</a></Link>
+                                            <ul className="sub-menu" style={{ minWidth: '220px' }}>
+                                                <li>
+                                                    <Link href={`${countryCode}/quickbooks-software`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />QuickBooks</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href={`${countryCode}/quickbooks-pro`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />QuickBooks Pro</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href={`${countryCode}/quickbooks-premier`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />QuickBooks Premier</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href={`${countryCode}/quickbooks-enterprise`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />QuickBooks Enterprise</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href={`${countryCode}/quickbooks-add-ons`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />QuickBooks Invoicing Software</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href={`${countryCode}/quickbooks-cloud-hosting`} legacyBehavior><a className="closer"><i className="fi fi-rr-calculator" />QuickBooks Cloud</a></Link>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li className="has-children">
                                             <Link href="#" legacyBehavior><a>Company</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
@@ -136,11 +159,11 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="header-right">
+                        {/* <div className="header-right">
                             <div className="block-signin">
                                 <Link href="/page-signup" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right">Get Started</a></Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </header>

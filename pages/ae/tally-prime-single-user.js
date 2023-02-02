@@ -2,14 +2,9 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import Link from "next/link";
-import PriceTable from "../../components/elements/PriceTable";
 import Layout from "../../components/layout/Layout";
-import EnabledBusiness from "../../components/slider/EnabledBusiness";
-import TestimonialSlider from "../../components/slider/Testimonial";
-import Accordion from "../../components/elements/Accordion";
 
-
-function Service1() {
+function TallyPrimeSingleUser() {
     const [activeIndex, setActiveIndex] = useState(1);
 
     const handleOnClick = (index) => {
@@ -64,12 +59,12 @@ function Service1() {
                     </div>
                 </section>
                 <section className="section-box">
-                    <div className="container mt-30">
+                    <div className="container mt-20">
                         <div className="bdrd-58 box-gray-100">
                             
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-lg-4 col-md-12 col-sm-12">
+                                    <div className="col-lg-4 col-md-12 col-sm-12 mt-10">
                                         <div className="card-grid-style-2 hover-up">
                                             <div className="box-img-user mt-0">
                                                 <div className="img-user"><img src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" /></div>
@@ -82,7 +77,7 @@ function Service1() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-4 col-md-12 col-sm-12">
+                                    <div className="col-lg-4 col-md-12 col-sm-12 mt-10">
                                         <div className="card-grid-style-2 hover-up">
                                             <div className="box-img-user mt-0">
                                                 <div className="img-user"><img src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" /></div>
@@ -95,7 +90,7 @@ function Service1() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="col-lg-4 col-md-12 col-sm-12">
+                                    <div className="col-lg-4 col-md-12 col-sm-12 mt-10">
                                         <div className="card-grid-style-2 hover-up">
                                             <div className="box-img-user mt-0">
                                                 <div className="img-user"><img src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" /></div>
@@ -142,9 +137,9 @@ function Service1() {
                                 <div className="col-lg-10 mx-auto col-sm-10 col-12 text-center mt-70">
                                     <h2 className="text-heading-2 color-gray-900">Benefits of an ERP to the Management</h2>
                                 </div>
-                                <div className="mt-30 text-center">
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3">Know More</a></Link>
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Check Tally Cloud Version</a></Link>
+                                <div className="mt-20 text-center">
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3 mt-10">Know More</a></Link>
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white mt-10">Check Tally Cloud Version</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -229,10 +224,10 @@ function Service1() {
                                 <div className="col-lg-10 mx-auto col-sm-10 col-12 text-center mt-70">
                                     <h2 className="text-heading-2 color-gray-900">Special Offer on Tally Prime</h2>
                                 </div>
-                                <div className="mt-30 text-center">
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3">Renewal</a></Link>
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3">Subscription</a></Link>
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Upgradation</a></Link>
+                                <div className="mt-20 text-center">
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3 mt-10">Renewal</a></Link>
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3 mt-10">Subscription</a></Link>
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white mt-10">Upgradation</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -345,10 +340,10 @@ function Service1() {
                                 <div className="col-lg-10 mx-auto col-sm-10 col-12 text-center mt-70">
                                     <h2 className="text-heading-2 color-gray-900">Special Offer on Tally Prime</h2>
                                 </div>
-                                <div className="mt-30 text-center">
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3">Renewal</a></Link>
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3">Subscription</a></Link>
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Upgradation</a></Link>
+                                <div className="mt-20 text-center">
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3 mt-10">Renewal</a></Link>
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3 mt-10">Subscription</a></Link>
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white mt-10">Upgradation</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -389,4 +384,4 @@ function Service1() {
     )
 }
 
-export default Service1;
+export default TallyPrimeSingleUser;

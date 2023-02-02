@@ -2,15 +2,9 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import Link from "next/link";
-import PriceTable from "../../components/elements/PriceTable";
 import Layout from "../../components/layout/Layout";
-import EnabledBusiness from "../../components/slider/EnabledBusiness";
-import TestimonialSlider from "../../components/slider/Testimonial";
-import Accordion from "../../components/elements/Accordion";
-import Intro2 from "../../components/slider/Intro2";
 
-
-function Service1() {
+function TallyCustomization() {
     const [activeIndex, setActiveIndex] = useState(1);
 
     const handleOnClick = (index) => {
@@ -35,12 +29,11 @@ function Service1() {
                     <div className="banner-hero banner-homepage6">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-7 mt-50 pb-120"><span className="tag-1 bg-green-900">Tally Prime Customization</span>
+                                <div className="col-lg-7 mt-50 pb-120 "><span className="tag-1 bg-green-900">Tally Prime Customization</span>
                                     <h1 className="text-display-2 mt-20">Tally Customization</h1>
                                     <p className="text-body-lead-large color-gray-500 mt-30 pr-40">We have developed customized modules in TallyPrime in order to enhance the efficieny and capabilities of Tally ERP 9 or TallyPrime.</p>
                                     <div className="mt-40">
                                         <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">300+ Ready Modules</a></Link>
-                                        {/* <Link href="#" legacyBehavior><a className="btn btn-link icon-triangle color-gray-900 ml-40">How it works</a></Link> */}
                                     </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
@@ -54,16 +47,16 @@ function Service1() {
                     </div>
                 </section>
                
-                <section className="section-box box-slider-3 d-none d-lg-flex">
+                <section className="section-box box-slider-3">
                     <div className="container">
                         <div className="block-slider-bottom-banner pr-0">
                             <div className="box-swiper">
                                 <div className="swiper-container swiper-group-1">
                                     <div className="row">
-                                        <div className="col-lg-4 col-md-6 col-sm-12">
-                                            <div className="card-grid-style-2 hover-up bg-gray-100 pt-30 pb-30">
-                                                <div class="content-detail">
-                                                    <ul class="">
+                                        <div className="col-lg-4 col-md-6 col-sm-12 mt-10 mx-auto">
+                                            <div className="card-grid-style-2 hover-up border pt-30 pb-30">
+                                                <div className="content-detail ">
+                                                    <ul className="">
                                                         <li>Invoice Customization</li>
                                                         <li>Packing List Customization</li>
                                                         <li>Receipt Voucher Format Customization</li>
@@ -73,10 +66,10 @@ function Service1() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 col-md-6 col-sm-12">
-                                            <div className="card-grid-style-2 hover-up bg-gray-100 pt-30 pb-30">
-                                                <div class="content-detail">
-                                                    <ul class="">
+                                        <div className="col-lg-4 col-md-6 col-sm-12 mt-10 mx-auto">
+                                            <div className="card-grid-style-2 hover-up border pt-30 pb-30">
+                                                <div className="content-detail">
+                                                    <ul className="">
                                                         <li>Ledger Security Control Customization</li>
                                                         <li>Entry Level Customization</li>
                                                         <li>Password Recovery</li>
@@ -86,10 +79,10 @@ function Service1() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 col-md-6 col-sm-12">
-                                            <div className="card-grid-style-2 hover-up bg-gray-100 pt-30 pb-30">
-                                                <div class="content-detail">
-                                                    <ul class="">
+                                        <div className="col-lg-4 col-md-6 col-sm-12 mt-10 mx-auto">
+                                            <div className="card-grid-style-2 hover-up border pt-30 pb-30">
+                                                <div className="content-detail">
+                                                    <ul className="">
                                                         <li>Cost center wise P&L</li>
                                                         <li>Remote Connectivity</li>
                                                         <li>Tally Access from Anywhere</li>
@@ -192,9 +185,9 @@ function Service1() {
                                         Upgrade Your Tally ERP 9 with Latest Tally Prime Version
                                     </p>
                                 </div>
-                                <div className="mt-30 text-center">
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3">Know More</a></Link>
-                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Check Tally Cloud Version</a></Link>
+                                <div className="mt-20 text-center">
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white me-3 mt-10">Know More</a></Link>
+                                    <Link href="#" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white mt-10">Check Tally Cloud Version</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -258,4 +251,4 @@ function Service1() {
     )
 }
 
-export default Service1;
+export default TallyCustomization;
