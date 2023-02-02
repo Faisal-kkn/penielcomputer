@@ -11,30 +11,30 @@ const TestimonialSlider = () => {
     const data = [
         {
             avatar: "1.png",
-            name: "Wade Warren",
-            company: "Louis Vuitton",
-            quote: "Even factoring differences in body weight between children and adults into account.",
+            name: "German Parts",
+            company: "Posted on Google",
+            quote: "Best Tally software dealer in UAE. Professional team good support",
             bg: ""
         },
         {
             avatar: "2.png",
-            name: "Brooklyn Simmons",
-            company: "Nintendo",
-            quote: "So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication",
+            name: "lmp video AV",
+            company: "Posted on Google",
+            quote: "Good software Tally ERP for Accounting purpose us also your service is very good",
             bg: "bd-bg-6"
         },
         {
             avatar: "3.png",
-            name: "Jenny Wilson",
-            company: "Starbucks",
-            quote: "Their blood alcohol levels rose to 0.007 to 0.02 o/oo (parts per thousand), or 0.7 to 2.0 mg/L",
+            name: "gaurav hegde",
+            company: "Posted on Google",
+            quote: "Tally is very easy and user friendly to use compared to other accounting software is and data traceability is also good",
             bg: "bd-bg-10"
         },
         {
             avatar: "4.png",
-            name: "Albert Flores",
-            company: "Bank of America",
-            quote: "So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication",
+            name: "Bhakiyaraj Tamilmani",
+            company: "Posted on Google",
+            quote: "Providing excellent business solutions with the latest in technology to make any business run simple and efficient.",
             bg: "bd-bg-6"
         }
     ];
@@ -45,9 +45,25 @@ const TestimonialSlider = () => {
             <div className="box-swiper">
                 <div className="swiper-container swiper-group-4">
                     <Swiper
-                        slidesPerView={4}
+                        breakpoints={{
+                            // when window width is >= 640px
+                            640: {
+                                slidesPerView: 1,
+                            },
+                            // when window width is >= 768px
+                            768: {
+                                slidesPerView: 2,
+                            },
+                            992: {
+                                slidesPerView: 3,
+                            },
+                            1200: {
+                                slidesPerView: 4,
+                            }
+                        }}
+                        // slidesPerView={4}
                         spaceBetween={30}
-                        loop={true}
+                        // loop={true}
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false
@@ -56,14 +72,14 @@ const TestimonialSlider = () => {
                             prevEl: ".swiper-button-prev-4",
                             nextEl: ".swiper-button-next-4"
                         }}
-                        className="swiper-wrapper pb-70 pt-5"
+                        className="swiper-wrapper pt-5"
                     >
                         {data.map((item, i) => (
-                            <SwiperSlide  key="{item}">
+                            <SwiperSlide key={i}>
                                 <div className="swiper-slide active">
                                     <div className={`card-grid-style-3 hover-up ${item.bg}`}>
                                         <div className="grid-3-img">
-                                            <img src={`assets/imgs/page/homepage1/user-${item.avatar}`} alt="Agon" />
+                                            <img src={`/assets/imgs/page/homepage1/user-${item.avatar}`} alt="Agon" />
                                         </div>
                                         <h3 className="text-heading-6 mb-5 mt-20">{item.name}</h3>
                                         <span className="text-body-small d-block">{item.company}</span>

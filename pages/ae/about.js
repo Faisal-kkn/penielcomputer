@@ -41,7 +41,7 @@ function About3() {
                             <div className="col-lg-12">
                                 <div className="box-image">
                                     <a className="popup-youtube btn-play-video btn-play-middle" onClick={openModal}>  </a>
-                                    <img className="img-responsive bdrd-16" src="assets/imgs/page/about/3/img.png" alt="Agon" /></div>
+                                    <img className="img-responsive bdrd-16" src="/assets/imgs/page/about/3/img.png" alt="Agon" /></div>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function About3() {
                     <div className="container mt-60 mb-70">
                         <div className="row">
                             <div className="col-lg-6 col-sm-12">
-                                <div className="bg-2 box-square hover-up pb-3 ">
+                                <div className="bg-2 box-square hover-up">
                                     <h4 className="text-heading-4 color-gray-900 mb-15">Our Vision</h4>
                                     <p className="text-body-excerpt color-gray-600">
                                         Our vision is to be the foremost valuable supporter of small and medium sized firms by making freedom and excellent solutions for them to succeed.
@@ -70,7 +70,7 @@ function About3() {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-sm-12">
-                                <div className="bg-6 box-square hover-up pb-3 ">
+                                <div className="bg-6 box-square hover-up">
                                     <h4 className="text-heading-4 color-gray-900 mb-15">Our Mission</h4>
                                     <p className="text-body-excerpt color-gray-600">
                                         Our mission is to deliver consistent and positive results to our clients. Through our dedication, we aim to satisfy our purchasers so that they keep returning to us.
@@ -82,7 +82,7 @@ function About3() {
                         </div>
                     </div>
                 </section>
-                <section className="section-box mt-100">
+                <section className="section-box why-peniel">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />

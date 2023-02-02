@@ -15,6 +15,7 @@
     }
     .banner-hero
     {
+       
         &.banner-2
         {
             .block-2
@@ -210,6 +211,7 @@
     {
         height: auto;
         margin-bottom: 30px;
+        padding: 55px 50px;
     }
     .box-gray-100 {
         padding: 40px;
@@ -345,6 +347,15 @@
 @include media-breakpoint-down(md) {
     //max-width: 767.98px
     // New Agon    
+    .banner-hero {
+        &.banner-1
+        {
+            padding: 80px 0px 60px;
+        }
+    }
+    .why-peniel{
+        margin-top: 50px;
+    }
     .icon-wave::before {
         content: none;
     }
@@ -499,6 +510,27 @@
 @include media-breakpoint-down(sm) {
     //max-width: 575.98px
     // New Agon
+    .footer{
+         .footer-top{
+                padding: 0px 0px 20px 0px;
+                margin-bottom: 20px;
+         }
+    }
+    .box-bg-bottom{
+        padding: 0px 20px 20px 20px;
+        .box-video-homepage6{
+            padding: 0
+        }
+    }
+    .banner-hero {
+        &.banner-1
+        {
+            padding: 50px 0px 50px;
+        }
+    }
+     .why-peniel{
+        margin-top: 0px;
+    }
     .header {
         padding: 15px 0;
         &.stick {
@@ -682,6 +714,12 @@
     .section-box.mt-40 {
         margin-top: 30px !important;
     }
+    .section-box.pt-70{
+        padding-top: 30px !important;
+    }
+    .section-box.pb-70{
+        padding-bottom: 30px !important;
+    }
     .header.sticky-bar .col-lg-7 .burger-icon {
         right: 15px;
     }
@@ -765,6 +803,11 @@
             font-size: 32px;
             line-height: 1.2;
         }
+    }
+    .list-icons-2{
+         li {
+            width: 100%;
+         }
     }
 }
 @include media-breakpoint-down(xsm) {

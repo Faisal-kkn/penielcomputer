@@ -26,7 +26,7 @@ function Home() {
         <>
             <Layout>
                 <section className="section-box">
-                    <div className="banner-hero banner-1" style={{ padding: '110px 0px 80px 0px' }}>
+                    <div className="banner-hero banner-1">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-7">

@@ -28,14 +28,14 @@ TABLE CONTENT
 
 // Configuration and helpers
 @import
-  'abstracts/variables',
+  'abstracts/variables', 
   'abstracts/functions',
   'abstracts/mixins';
 
 // Vendors
 @import
   'vendors/vendors-import';
-
+ 
 // Base stuff
 @import
   'base/common',
@@ -43,7 +43,7 @@ TABLE CONTENT
   'base/typography';
 
 // Components
-@import
+@import 
   'components/buttons',
   'components/form',
   'components/slider',
@@ -91,4 +91,4 @@ TABLE CONTENT
 
   // Responsive
 @import
-  'layout/responsive';
+  'layout/responsive'; 
